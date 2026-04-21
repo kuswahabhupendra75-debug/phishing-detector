@@ -18,7 +18,7 @@ A Machine Learning powered web application built with Streamlit to detect whethe
 
 1. **Clone the repository** (or download files):
    ```bash
-   git clone https://github.com/your-username/phishing-detector.git
+   git clone https://github.com/hackshastra/phishing-detector.git
    cd phishing-detector
    ```
 
@@ -56,4 +56,4 @@ This application is fully compatible with **Streamlit Community Cloud**.
 3. Connect your GitHub account and deploy `app.py`.
 
 ---
-*Built as a side project to showcase Machine Learning deployment.*
+*Made by Hack Shastra | Developed by Hack Shastra*

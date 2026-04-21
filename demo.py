@@ -18,7 +18,7 @@ except Exception as e:
 
 test_urls = [
     ("Safe Example", "https://google.com/search?q=machine+learning"),
-    ("Safe Example", "https://github.com/bhupendra/project"),
+    ("Safe Example", "https://github.com/hackshastra/project"),
     ("Suspicious/Phishing Example", "http://login.secure-bank-update.com@192.168.1.1/admin"),
     ("Phishing Example", "http://free-iphone-winner-click-here.net/win")
 ]

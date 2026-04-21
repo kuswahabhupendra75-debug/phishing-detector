@@ -4,7 +4,7 @@ import pandas as pd
 import time
 
 # Set Wide Layout
-st.set_page_config(page_title="CyberShield Pro | By Bhupendra", page_icon="🛡️", layout="wide")
+st.set_page_config(page_title="CyberShield Pro | Made by Hack Shastra", page_icon="🛡️", layout="wide")
 
 # Hide Default Streamlit UI & Add Custom CSS for Ultra-Premium Look
 st.markdown("""
@@ -21,9 +21,9 @@ st.markdown("""
 
     /* Background and Global Font */
     .stApp {
-        background: radial-gradient(circle at 10% 20%, #0c1015 0%, #161b22 100%);
+        background: radial-gradient(circle at 10% 20%, #eff6ff 0%, #ffffff 100%);
         font-family: 'Inter', sans-serif;
-        color: #c9d1d9;
+        color: #1e293b;
     }
     
     html, body, [class*="css"] {
@@ -35,10 +35,10 @@ st.markdown("""
         position: fixed;
         top: 0; left: 0; right: 0;
         height: 70px;
-        background: rgba(13, 17, 23, 0.85);
+        background: rgba(255, 255, 255, 0.85);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
         z-index: 9999;
         display: flex;
         align-items: center;
@@ -49,7 +49,7 @@ st.markdown("""
         font-family: 'Outfit', sans-serif;
         font-size: 24px;
         font-weight: 800;
-        background: linear-gradient(90deg, #4481eb, #04befe);
+        background: linear-gradient(90deg, #1d4ed8, #0ea5e9);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         letter-spacing: 1px;
@@ -57,7 +57,7 @@ st.markdown("""
     .nav-links {
         font-size: 14px;
         font-weight: 600;
-        color: #8b949e;
+        color: #475569;
         letter-spacing: 0.5px;
         display: flex;
         align-items: center;
@@ -68,12 +68,12 @@ st.markdown("""
         transition: color 0.3s;
     }
     .nav-links span:hover {
-        color: #fff;
+        color: #1d4ed8;
     }
     .dev-badge {
-        background-color: rgba(4, 190, 254, 0.1);
-        border: 1px solid rgba(4, 190, 254, 0.3);
-        color: #04befe;
+        background-color: rgba(29, 78, 216, 0.1);
+        border: 1px solid rgba(29, 78, 216, 0.3);
+        color: #1d4ed8;
         padding: 5px 15px;
         border-radius: 20px;
         margin-left: 30px;
@@ -90,38 +90,38 @@ st.markdown("""
         font-family: 'Outfit', sans-serif;
         font-size: 4.5rem;
         font-weight: 800;
-        color: #fff;
+        color: #0f172a;
         line-height: 1.1;
         margin-bottom: 20px;
     }
     .hero h1 span {
-        background: linear-gradient(to right, #00c6ff, #0072ff);
+        background: linear-gradient(to right, #1d4ed8, #0ea5e9);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     .hero p {
         font-size: 1.25rem;
-        color: #8b949e;
+        color: #475569;
         max-width: 600px;
         margin: 0 auto;
     }
 
     /* Input & Button Overlay - Extreme Styling */
     div[data-baseweb="input"] > div {
-        background: rgba(13, 17, 23, 0.9) !important;
-        border: 2px solid rgba(255,255,255,0.1) !important;
+        background: rgba(255, 255, 255, 0.9) !important;
+        border: 2px solid rgba(0,0,0,0.1) !important;
         border-radius: 12px;
         padding: 12px 15px;
-        color: white;
+        color: #1e293b;
         font-size: 18px;
         transition: all 0.3s ease;
     }
     div[data-baseweb="input"] > div:focus-within {
-        border-color: #04befe !important;
-        box-shadow: 0 0 20px rgba(4, 190, 254, 0.3) !important;
+        border-color: #0ea5e9 !important;
+        box-shadow: 0 0 20px rgba(14, 165, 233, 0.2) !important;
     }
     div.stButton > button {
-        background: linear-gradient(90deg, #1f6feb 0%, #3fb950 100%);
+        background: linear-gradient(90deg, #1d4ed8 0%, #0ea5e9 100%);
         color: white;
         font-family: 'Outfit', sans-serif;
         font-weight: 600;
@@ -131,12 +131,12 @@ st.markdown("""
         border: none;
         width: 100%;
         margin-top: 15px;
-        box-shadow: 0 10px 20px rgba(31, 111, 235, 0.3);
+        box-shadow: 0 10px 20px rgba(29, 78, 216, 0.2);
         transition: all 0.3s ease;
     }
     div.stButton > button:hover {
         transform: translateY(-3px);
-        box-shadow: 0 15px 25px rgba(63, 185, 80, 0.4);
+        box-shadow: 0 15px 25px rgba(29, 78, 216, 0.3);
         color: white;
     }
 
@@ -145,23 +145,23 @@ st.markdown("""
         text-align: center;
         padding: 60px 20px;
         margin-top: 100px;
-        border-top: 1px solid rgba(255,255,255,0.05);
-        background: #0d1117;
+        border-top: 1px solid rgba(0,0,0,0.05);
+        background: #f8fafc;
     }
     .pro-footer h3 {
         font-family: 'Outfit', sans-serif;
-        color: #fff;
+        color: #0f172a;
         font-weight: 800;
         margin-bottom: 2px;
     }
     .pro-footer h4 {
-        color: #04befe;
+        color: #1d4ed8;
         font-weight: 600;
         margin-top: 5px;
         margin-bottom: 15px;
     }
     .pro-footer p {
-        color: #8b949e;
+        color: #64748b;
         font-size: 0.95rem;
     }
 
@@ -170,6 +170,7 @@ st.markdown("""
         font-size: 3rem;
         font-weight: 800;
         font-family: 'Outfit', sans-serif;
+        color: #0f172a;
     }
 
 </style>
@@ -235,7 +236,7 @@ if model is None:
 _, col_main, _ = st.columns([1, 2, 1])
 
 with col_main:
-    st.markdown("<h3 style='text-align: center; font-family: Outfit; font-weight: 600; margin-bottom: 20px; color: #fff;'>Deep Scan Neural Engine</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center; font-family: Outfit; font-weight: 600; margin-bottom: 20px; color: #0f172a;'>Deep Scan Neural Engine</h3>", unsafe_allow_html=True)
     
     url = st.text_input("Enter Target", label_visibility="collapsed", placeholder="Enter website link here (e.g., https://paypal-secure-login.com)")
     
@@ -266,12 +267,12 @@ with col_main:
             
             confidence_pct = probability[1] * 100 if prediction == 1 else probability[0] * 100
             
-            st.markdown("<hr style='border-color: rgba(255,255,255,0.1);'>", unsafe_allow_html=True)
+            st.markdown("<hr style='border-color: rgba(0,0,0,0.1);'>", unsafe_allow_html=True)
             
             res_col1, res_col2 = st.columns([1, 1.5])
             
             with res_col1:
-                st.markdown("<h4 style='color: #8b949e;'>Diagnostic Status</h4>", unsafe_allow_html=True)
+                st.markdown("<h4 style='color: #475569;'>Diagnostic Status</h4>", unsafe_allow_html=True)
                 if prediction == 0:
                     st.success("## ✅ SECURE")
                     st.metric(label="AI Confidence Score", value=f"{confidence_pct:.2f}%", delta="Clean")
@@ -281,7 +282,7 @@ with col_main:
                     st.metric(label="AI Confidence Score", value=f"{confidence_pct:.2f}%", delta="-Threat Detected", delta_color="inverse")
             
             with res_col2:
-                st.markdown("<h4 style='color: #8b949e;'>System Diagnostics</h4>", unsafe_allow_html=True)
+                st.markdown("<h4 style='color: #475569;'>System Diagnostics</h4>", unsafe_allow_html=True)
                 if prediction == 1:
                     st.markdown("The neural engine identified immediate security risks:")
                     for r in get_reasons(features):
@@ -298,12 +299,12 @@ with col_main:
             st.warning("⚠️ Target parameter missing. Please provide a URL.")
 
 
-# Footer Section Explicitly Assigned with User's Name
+# Footer Section Branding
 st.markdown("""
 <div class="pro-footer">
     <h3>CyberShield Pro</h3>
-    <h4>All rights reserved by BhupendraSinh Rajgopal Kushwaha © 2026</h4>
-    <p>Engineered, Designed, and Developed by a Professional Developer for Enterprise Security.</p>
+    <h4>Made by Hack Shastra © 2026</h4>
+    <p>Engineered, Designed, and Developed by Hack Shastra for Enterprise Security.</p>
     <p style="font-size: 0.8rem; margin-top: 10px; color: #6e7681;">Powered by Advanced Machine Learning, Python, and Streamlit.</p>
 </div>
 """, unsafe_allow_html=True)
