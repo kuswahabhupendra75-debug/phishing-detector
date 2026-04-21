@@ -106,38 +106,52 @@ st.markdown("""
         margin: 0 auto;
     }
 
-    /* Input & Button Overlay - Extreme Styling */
-    div[data-baseweb="input"] > div {
-        background: rgba(255, 255, 255, 0.9) !important;
-        border: 2px solid rgba(0,0,0,0.1) !important;
-        border-radius: 12px;
-        padding: 12px 15px;
-        color: #1e293b;
-        font-size: 18px;
+    /* Input Styling Fix */
+    .stTextInput div[data-baseweb="input"] {
+        border-radius: 10px !important;
+        border: 2px solid #cbd5e1 !important;
+        background-color: #ffffff !important;
         transition: all 0.3s ease;
     }
-    div[data-baseweb="input"] > div:focus-within {
+    .stTextInput div[data-baseweb="input"]:focus-within {
         border-color: #0ea5e9 !important;
-        box-shadow: 0 0 20px rgba(14, 165, 233, 0.2) !important;
+        box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.2) !important;
     }
+    .stTextInput input {
+        color: #0f172a !important;
+        font-size: 16px !important;
+        font-family: 'Outfit', sans-serif;
+        padding: 12px 10px !important;
+        background-color: transparent !important;
+    }
+    .stTextInput input::placeholder {
+        color: #64748b !important;
+    }
+
     div.stButton > button {
         background: linear-gradient(90deg, #1d4ed8 0%, #0ea5e9 100%);
         color: white;
         font-family: 'Outfit', sans-serif;
         font-weight: 600;
         font-size: 18px;
-        padding: 20px 0;
-        border-radius: 12px;
+        min-height: 55px;
+        padding: 0.5rem 1.5rem !important;
+        border-radius: 10px;
         border: none;
         width: 100%;
         margin-top: 15px;
-        box-shadow: 0 10px 20px rgba(29, 78, 216, 0.2);
+        box-shadow: 0 6px 16px rgba(29, 78, 216, 0.25);
         transition: all 0.3s ease;
     }
+    div.stButton > button p {
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        color: white !important;
+        margin: 0 !important;
+    }
     div.stButton > button:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 15px 25px rgba(29, 78, 216, 0.3);
-        color: white;
+        transform: translateY(-2px);
+        box-shadow: 0 10px 20px rgba(29, 78, 216, 0.35);
     }
 
     /* Footer */
