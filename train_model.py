@@ -1,6 +1,6 @@
 # ============================================================
 #   CyberShield Pro - Model Training Script
-#   Developed by: Hack Shastra
+#   Developed by: Cyber Kavach Pvt Ltd
 #   Version: 2.0
 # ============================================================
 
@@ -19,7 +19,7 @@ import pickle
 print("")
 print("=" * 52)
 print("   CYBERSHIELD PRO  -  AI TRAINING ENGINE")
-print("         Developed by Hack Shastra")
+print("         Developed by Cyber Kavach Pvt Ltd")
 print("=" * 52)
 print("")
 
@@ -54,6 +54,6 @@ print("      OK - model.pkl saved successfully!\n")
 
 print("=" * 52)
 print("  DONE! Run app: py -m streamlit run app.py")
-print("  -- Hack Shastra (C) 2026")
+print("  -- Cyber Kavach Pvt Ltd (C) 2026")
 print("=" * 52)
 print("")

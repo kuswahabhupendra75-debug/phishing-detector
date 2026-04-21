@@ -1,6 +1,6 @@
 # ============================================================
 #   CyberShield Pro - Terminal Demo Script
-#   Developed by: Hack Shastra
+#   Developed by: Cyber Kavach Pvt Ltd
 #   Version: 2.0
 # ============================================================
 
@@ -50,7 +50,7 @@ test_urls = [
 print()
 print("=" * 60)
 print("   CYBERSHIELD PRO - LIVE TERMINAL DEMO")
-print("         Developed by Hack Shastra")
+print("         Developed by Cyber Kavach Pvt Ltd")
 print("=" * 60)
 print()
 
@@ -78,5 +78,5 @@ for label, url in test_urls:
     print("  " + "─" * 60)
 
 print()
-print("  Hack Shastra © 2026  |  CyberShield Pro v2.0")
+print("  Cyber Kavach Pvt Ltd © 2026  |  CyberShield Pro v2.0")
 print()

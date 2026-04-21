@@ -1,7 +1,7 @@
 # 🛡️ CyberShield Pro — AI Phishing Detection System
 
 > **Enterprise-grade URL threat intelligence powered by Machine Learning**  
-> *Developed & Engineered by **Hack Shastra** © 2026*
+> *Developed & Engineered by **Cyber Kavach Pvt Ltd** © 2026*
 
 ---
 
@@ -55,7 +55,7 @@ phishing-detector/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/hackshastra/phishing-detector.git
+git clone https://github.com/kuswahabhupendra75-debug/phishing-detector.git
 cd phishing-detector
 ```
 
@@ -126,13 +126,13 @@ The AI model analyzes these 5 URL characteristics:
 ```
 ╔══════════════════════════════════════════╗
 ║     CyberShield Pro — Version 2.0        ║
-║     Developed by  :  Hack Shastra        ║
-║     Engineered by :  Hack Shastra        ║
-║     Designed by   :  Hack Shastra        ║
+║     Developed by  :  Cyber Kavach Pvt Ltd║
+║     Engineered by :  Cyber Kavach Pvt Ltd║
+║     Designed by   :  Cyber Kavach Pvt Ltd║
 ║     Year          :  2026                ║
 ╚══════════════════════════════════════════╝
 ```
 
 ---
 
-*CyberShield Pro | Made by Hack Shastra | Powered by Python & Machine Learning*
+*CyberShield Pro | Made by Cyber Kavach Pvt Ltd | Powered by Python & Machine Learning*
