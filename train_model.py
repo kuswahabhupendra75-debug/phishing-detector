@@ -1,6 +1,6 @@
 # ============================================================
 #   CyberShield Pro - Model Training Script
-#   Developed by: Cyber Kavach Pvt Ltd
+#   Developed by: Bhupendra Sinh Rajgopal Kushwaha
 #   Version: 2.0
 # ============================================================
 
@@ -19,7 +19,7 @@ import pickle
 print("")
 print("=" * 52)
 print("   CYBERSHIELD PRO  -  AI TRAINING ENGINE")
-print("         Developed by Cyber Kavach Pvt Ltd")
+print("         Developed by Bhupendra Sinh Rajgopal Kushwaha")
 print("=" * 52)
 print("")
 
@@ -54,6 +54,6 @@ print("      OK - model.pkl saved successfully!\n")
 
 print("=" * 52)
 print("  DONE! Run app: py -m streamlit run app.py")
-print("  -- Cyber Kavach Pvt Ltd (C) 2026")
+print("  -- Bhupendra Sinh Rajgopal Kushwaha (C) 2026")
 print("=" * 52)
 print("")

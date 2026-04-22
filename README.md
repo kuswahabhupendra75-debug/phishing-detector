@@ -1,7 +1,7 @@
 # 🛡️ CyberShield Pro — AI Phishing Detection System
 
 > **Enterprise-grade URL threat intelligence powered by Machine Learning**  
-> *Developed & Engineered by **Cyber Kavach Pvt Ltd** © 2026*
+> *Developed & Engineered by **Bhupendra Sinh Rajgopal Kushwaha** © 2026*
 
 ---
 
@@ -124,15 +124,15 @@ The AI model analyzes these 5 URL characteristics:
 ## 👨‍💻 Developer Credits
 
 ```
-╔══════════════════════════════════════════╗
-║     CyberShield Pro — Version 2.0        ║
-║     Developed by  :  Cyber Kavach Pvt Ltd║
-║     Engineered by :  Cyber Kavach Pvt Ltd║
-║     Designed by   :  Cyber Kavach Pvt Ltd║
-║     Year          :  2026                ║
-╚══════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════╗
+║     CyberShield Pro — Version 2.0                    ║
+║     Developed by  :  Bhupendra Sinh Rajgopal Kushwaha║
+║     Engineered by :  Bhupendra Sinh Rajgopal Kushwaha║
+║     Designed by   :  Bhupendra Sinh Rajgopal Kushwaha║
+║     Year          :  2026                            ║
+╚══════════════════════════════════════════════════════╝
 ```
 
 ---
 
-*CyberShield Pro | Made by Cyber Kavach Pvt Ltd | Powered by Python & Machine Learning*
+*CyberShield Pro | Made by Bhupendra Sinh Rajgopal Kushwaha | Powered by Python & Machine Learning*

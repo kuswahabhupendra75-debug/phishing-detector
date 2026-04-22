@@ -1,6 +1,6 @@
 # ============================================================
 #   CyberShield Pro - Main Streamlit Web Application
-#   Developed by: Cyber Kavach Pvt Ltd
+#   Developed by: Bhupendra Sinh Rajgopal Kushwaha
 #   Version: 2.0
 # ============================================================
 
@@ -11,7 +11,7 @@ import time
 
 # ── Page Config ──────────────────────────────────────────────
 st.set_page_config(
-    page_title="CyberShield Pro | Cyber Kavach Pvt Ltd",
+    page_title="CyberShield Pro | Bhupendra Sinh Rajgopal Kushwaha",
     page_icon="🛡️",
     layout="wide"
 )
@@ -251,7 +251,7 @@ st.markdown("""
         <span>Dashboard</span>
         <span>Threat Intel</span>
         <span>API Docs</span>
-        <div class="dev-badge">Cyber Kavach Pvt Ltd v2.0</div>
+        <div class="dev-badge">Bhupendra Sinh Rajgopal Kushwaha v2.0</div>
     </div>
 </div>
 """, unsafe_allow_html=True)
@@ -420,7 +420,7 @@ with col_main:
 st.markdown("""
 <div class="pro-footer">
     <h3>🛡️ CyberShield Pro</h3>
-    <h4>Developed &amp; Engineered by Cyber Kavach Pvt Ltd © 2026</h4>
+    <h4>Developed &amp; Engineered by Bhupendra Sinh Rajgopal Kushwaha © 2026</h4>
     <p>Built with Python · Scikit-Learn Random Forest · Streamlit</p>
     <p style="font-size:0.78rem; margin-top:10px; color:#94a3b8;">
         This tool is for educational purposes. Always exercise caution when browsing unknown URLs.
